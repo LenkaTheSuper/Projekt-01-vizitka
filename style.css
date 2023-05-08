@@ -1,3 +1,60 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+
+header {
+    background-color: pink;
+}
+
+h1 {
+    color:  rgb(221, 120, 137);
+    font-size:xx-large;
+    background-image:url(obrazky/Lenka.jpg);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10% 30%;
+}
+.menu {
+    display: flex;
+    background-color: rgb(221, 120, 137);
+    color: pink;
+    margin: 0;
+    padding: 2% 20%;
+}
+
+body{
+    background-color: #ed9aaf;
+    padding: 0.5%;
+}
+
+main {
+    margin: 0;
+    padding: 2% 10%;
+
+}
+
+.omne, .prace, .kontakt {
+    background-color: pink;
+    margin: 0
+}
+
+.fotogalerie, .zajmy {
+    background-color: rgb(243, 121, 141);
+    margin: 0
+}
+
+footer{
+    font-weight: normal;
+    text-align: center;
+    font-family: serif;
+    font-size: 15px;
+    padding: 2%;
+    background-color: rgb(221, 120, 137);
+    color: white;
+}
